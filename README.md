@@ -15,9 +15,13 @@ This app does not hold any data, it is merely a relay.
 
 ## How do I use it in-game?
 Simple, just send a PM to <CHARACTER NAME PENDING> with the following format:
-!report <Map>, <Prefix>, <Suffix>
+
+####!report <Map>, <Prefix>, <Suffix>
+
 Example, you notice the Crypt has a Tempest of Suffering. You send the following PM:
-!report Crypt, , Suffering
+
+####!report Crypt, , Suffering
+
 Bear in mind the bot does not interact with the PoE client so it will not respond to you.
 
 ## Can I run this on my machine?
