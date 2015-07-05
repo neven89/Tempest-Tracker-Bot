@@ -14,14 +14,14 @@ Due to how big the Client.txt can get, its contents will be cleared every 30 sec
 This app does not hold any data, it is merely a relay.
 
 ## How do I use it in-game?
-Simple, just send a PM to <CHARACTER NAME PENDING> with the following format:
-
-####!report <Map>, <Prefix>, <Suffix>
-
+Simple, just send a PM to [CHARACTER NAME PENDING] with the following format:
+```json
+!report [Map], [Prefix], [Suffix]
+```
 Example, you notice the Crypt has a Tempest of Suffering. You send the following PM:
-
-####!report Crypt, , Suffering
-
+```json
+!report Crypt, , Suffering
+```
 Bear in mind the bot does not interact with the PoE client so it will not respond to you.
 
 ## Can I run this on my machine?
@@ -34,5 +34,5 @@ No. It will screw up your Client.txt file and won't give you any benefit over PM
 You're welcome to download, compile and run the Visual Studio solution. Just don't expect me to care if you start blaming me for any random problems you start having because they won't be my fault.
 
 ## Can I help out with development?
-I'm open to any suggestions, but that's it. The project is rather simple and I don't need random strangers touching my code.
+I'm open to any suggestions, but the idea is really rather simple so I probably will decline any pull requests.
 
