@@ -1,0 +1,6 @@
+## Visual Studio
+*.suo
+*.user
+bin
+obj
+packages
