@@ -69,7 +69,7 @@ namespace TempestTrackerBot
             //Debug
             Console.WriteLine(string.Format("{0} {1} {2} by {3} at {4}", mapName, prefix, suffix, playerName, timeStamp));
             //Don't keep the main thread busy, communcation can hang and we don't want that if we can avoid it
-            //Task.Factory.StartNew(() => SendData(mapName, prefix, suffix));
+            Task.Factory.StartNew(() => SendData(mapName, prefix, suffix));
         }
 
         private static void SendData(string mapName, string prefix, string suffix)
@@ -83,7 +83,7 @@ namespace TempestTrackerBot
                     new KeyValuePair<string, string>("tempest", suffix)
                 };
                 var content = new FormUrlEncodedContent(pairs);
-                var result = client.PostAsync("/vote", content).Result;
+                var result = client.PostAsync("", content).Result;
                 //Don't really need the result but there it is...
             }
         }
